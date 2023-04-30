@@ -3,9 +3,6 @@ import praw
 import pandas as pd
 import datetime as dt
 
-# Auth Variables
-
-
 # Getting Reddit and subreddit instances.
 reddit = praw.Reddit(client_id='PERSONAL_USE_SCRIPT_14_CHARS',
                      client_secret='SECRET_KEY_27_CHARS ',
